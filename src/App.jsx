@@ -445,7 +445,7 @@ const s = {
   },
   tabBright: {
     flex: 1,
-    maxWidth: 180,
+    maxWidth: 200,
     padding: "13px 8px",
     borderRadius: 50,
     cursor: "pointer",
@@ -458,7 +458,7 @@ const s = {
   },
   tabDark: {
     flex: 1,
-    maxWidth: 180,
+    maxWidth: 200,
     padding: "13px 8px",
     borderRadius: 50,
     cursor: "pointer",
