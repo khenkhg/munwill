@@ -1,40 +1,6 @@
 import { useState, useRef } from "react"
 import { Player } from "@lottiefiles/react-lottie-player"
 
-/*
-  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  SETUP — do these two things before running:
-
-  1. Install the player:
-       npm install @lottiefiles/react-lottie-player
-
-  2. Download each sticker JSON and put it in /public/:
-       /public/s-heart.json        ← cute heart
-       /public/s-floatinghearts.json ← floating red hearts
-       /public/s-cats.json         ← cats kissing
-       /public/s-teary.json        ← teary emoji
-       /public/s-iloveu.json       ← i like u / i love u
-       /public/s-frog.json         ← frog saying ily
-       /public/s-sadgirl.json      ← sad girl rainy cloud
-       /public/s-sorry.json        ← sorry
-       /public/s-ring.json         ← engagement box
-
-     To download: open each lottie.host URL in browser → right-click
-     the page → Save As → rename to the filename above → put in /public/
-
-  Original URLs for reference:
-    heart         → https://lottie.host/41e62970-ece0-4b3d-b071-fb351c16e8dd/TlhVMO82to.json
-    floatinghearts→ https://lottie.host/31f2eb8f-e52e-4b64-95f9-09b01e89ff03/0pTdxLYzf0.json
-    cats          → https://lottie.host/18691830-d95e-4f52-9eed-f72c309f3579/MnTjaGfEfV.json
-    teary         → https://lottie.host/bd8ebb99-5282-4687-a7dd-1eba608c8604/qEW3BvqDGH.json
-    iloveu        → https://lottie.host/a712d1ad-5d3a-4846-80c6-2e85968a4eaf/fFQk7B20KE.json
-    frog          → https://lottie.host/e09b44ad-c379-4fe9-936a-9e2c8ef808bf/hHwPx6wZ8f.json
-    sadgirl       → https://lottie.host/7173dcda-f6c5-477d-9211-deeb0513920b/iUUngTvquz.json
-    sorry         → https://lottie.host/3841d18c-9b1f-4df1-b6da-925b53124675/sPec788SxZ.json
-    ring          → https://lottie.host/a3d914ae-872c-49db-b05c-4a13a474cf95/Bll3HjYgMW.json
-  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-*/
-
 // ─── Sticker helper ──────────────────────────────────────────────────────────
 function Sticker({ src, size = 160, loop = true }) {
   return (
@@ -445,7 +411,7 @@ const s = {
   },
   tabBright: {
     flex: 1,
-    maxWidth: 200,
+    maxWidth: 240,
     padding: "13px 8px",
     borderRadius: 50,
     cursor: "pointer",
@@ -458,7 +424,7 @@ const s = {
   },
   tabDark: {
     flex: 1,
-    maxWidth: 200,
+    maxWidth: 240,
     padding: "13px 8px",
     borderRadius: 50,
     cursor: "pointer",
