@@ -169,8 +169,8 @@ function SidesPage({ onBright, onDark, onQuestion }) {
       <h2 style={s.heading}>Choose your path</h2>
       <p style={s.subtitle}>Which side do you dare to open? 👀</p>
       <div style={{ display: "flex", justifyContent: "center", gap: 10, marginTop: "1.4rem", flexWrap: "wrap" }}>
-        <button onClick={onBright} style={s.tabBright}>☀️ Bright side</button>
-        <button onClick={onDark} style={s.tabDark}>🖤 Dark side</button>
+        <button onClick={onBright} style={s.tabBright}>☀️ BrightSide</button>
+        <button onClick={onDark} style={s.tabDark}>🖤 DarkSide</button>
       </div>
       <button onClick={onQuestion} style={{ ...s.btnPink, marginTop: "1.4rem", background: "#ad1457" }}>
         One last question 💌
