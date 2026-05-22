@@ -190,7 +190,7 @@ function BrightPage({ onBack }) {
         <p style={{ fontSize: 13, color: "#c2185b", fontWeight: 600, marginBottom: 4, fontFamily: "Nunito, sans-serif" }}>Message #{selected} 💌</p>
         {msg === null ? (
           <div style={s.msgCard}>
-            <img src={`/image${selected}.png`} alt={`message ${selected}`}
+            <img src={`/message${selected}.png`} alt={`message ${selected}`}
               style={{ maxWidth: "100%", borderRadius: 12 }} />
           </div>
         ) : (
