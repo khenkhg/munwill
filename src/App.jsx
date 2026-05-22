@@ -225,7 +225,7 @@ function DarkPage({ onBack }) {
     return (
       <div style={{ ...s.darkBg }}>
         <PageWrap>
-          <Sticker src="/s-sadgirl.json" size={160} />
+          <Sticker src="/s-heart.json" size={160} />
           <p style={{ fontSize: 13, color: "#ff6b6b", fontWeight: 600, marginBottom: 4, fontFamily: "Nunito, sans-serif" }}>Danger Zone #{selected} 🔥</p>
           <div style={s.msgCardDark}>{darkMessages[selected]}</div>
           <button onClick={() => setSelected(null)} style={s.backLinkDark}>← back</button>
